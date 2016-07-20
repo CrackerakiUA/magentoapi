@@ -1,13 +1,17 @@
 {
-  "name": "magento",
+  "name": "magentoExt",
   "author": "Tim Marshall <timothyjmarshall@gmail.com>",
   "description": "Magento SOAP API wrapper for Node.js",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "main": "./src/magento",
   "contributors": [
     {
       "name": "Tim Marshall",
       "email": "timothyjmarshall@gmail.com"
+    },
+    {
+      "name": "Honchar Denys",
+      "email": "crackeraki@gmail.com"
     }
   ],
   "engines": {
@@ -23,6 +27,6 @@
     "api",
     "xml"
   ],
-  "repository": "git://github.com/MadisonReed/magentoapi",
+  "repository": "git://github.com/CrackerakiUA/magentoapi",
   "license": "MIT"
 }

@@ -90,6 +90,7 @@ function Magento(config) {
     this[key].on('method', function() {
       var args = slice.call(arguments);
       args[0] = this.prefix ? this.prefix + args[0] : args[0];
+      if(args[0]=='zaproo_product.extendedProductList') args[1].unshift('');
       self.method.apply(self, args);
     }.bind(this[key]));
 
