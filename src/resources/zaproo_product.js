@@ -22,6 +22,13 @@ var protos = {
 	extendedProductList: {
 		mandatory: 'attributes',
 	},
+	/**
+		Allow to upload image to product via url.
+	*/
+	importImage: {
+		mandatory: 'product,url',
+		optional: 'storeView'
+	},
 };
 // function to turn a native date object into something like '2013-07-08 23:57:28'
 var iso8601Match = /^(\d{4}-\d{2}-\d{2})T(\d{2}:\d{2}:\d{2}).*$/;
