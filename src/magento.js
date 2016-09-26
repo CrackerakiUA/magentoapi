@@ -9,6 +9,7 @@ var MagentoError = require('./error.js');
 // globals
 var slice = Array.prototype.slice;
 var resources = {
+  zaprooProduct: './resources/zaproo_product.js',
   catalogCategory: './resources/catalog_category.js',
   catalogCategoryAttribute: './resources/catalog_category_attribute.js',
   catalogProduct: './resources/catalog_product.js',
